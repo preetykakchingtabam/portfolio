@@ -1,89 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>My Portfolio</title>
 
-<style>
+<title>Preety's Portfolio</title>
 
-body{
-font-family: Arial;
-text-align:center;
-background:#f4f4f4;
-margin:0;
-}
+<link rel="stylesheet" href="style.css">
 
-header{
-background:white;
-padding:40px;
-}
-
-.profile{
-width:150px;
-border-radius:50%;
-}
-
-h1{
-color:#333;
-}
-
-.section{
-margin:40px;
-padding:20px;
-background:white;
-border-radius:10px;
-box-shadow:0px 4px 8px rgba(0,0,0,0.1);
-}
-
-.project-img{
-width:200px;
-margin-top:10px;
-border-radius:10px;
-}
-
-</style>
 </head>
 
 <body>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
 
 <header>
 
 <img src="preety.jpeg" class="profile">
 
 <h1>Hello, I'm Preety</h1>
-<p>Computer Science Student</p>
+<p>Computer Science Student | Machine Learning Enthusiast</p>
 
 </header>
 
-<div class="section">
+<div class="section" id="about">
 <h2>About Me</h2>
+
 <p>
-I am a Computer Science student passionate about Machine Learning,
-Artificial Intelligence and Python development. I enjoy building
-projects that solve real-world problems and improve my technical skills
+I am a Computer Science student with interests in Machine Learning, Artificial Intelligence, 
+Python programming, and design. I enjoy developing intelligent systems and creating 
+clean, user-friendly digital experiences.
 </p>
+
 </div>
 
-<div class="section">
+<div class="section" id="projects">
+
 <h2>Projects</h2>
 
-<h3>Flower Identifier using Machine Learning</h3>
-<p>This project identifies flowers using machine learning and image recognition.</p>
-  <h3>Water Quality Analysis using Machine Learning</h3>
+<div class="projects">
+
+<div class="card">
+<h3>Flower Identifier</h3>
+<p>Machine learning project that identifies flowers using image recognition.</p>
+</div>
+
+<div class="card">
+ <h3>Water Quality Analysis using Machine Learning</h3>
 <p>This project analyse the water quality using machine learning.</p>
+</div>
 
+</div>
 
 </div>
 
 <div class="section">
+
 <h2>Skills</h2>
-<p>Python | Machine Learning | OpenCV | Git</p>
+<p>Python • Machine Learning • OpenCV • HTML • CSS • Git</p>
+
 </div>
 
-<div class="section">
+<div class="section" id="contact">
+
 <h2>Contact</h2>
+
 <p>Email: pitykakchingtabam@gmail.com</p>
 <p>GitHub: github.com/preetykakchingtabam</p>
+
 </div>
+
+<footer>
+
+<p>© 2026 Preety</p>
+
+</footer>
 
 </body>
 </html>

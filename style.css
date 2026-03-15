@@ -1,14 +1,14 @@
 body{
 font-family: Arial;
 margin:0;
-background: linear-gradient(135deg,#cfe9ff,#e8f4ff);
+background: linear-gradient(135deg,#ffd6e7,#e6d6ff,#d6f0ff);
 text-align:center;
 }
 
 /* Navigation */
 
 nav{
-background:#6fb6ff;
+background:#ff9bb8;
 padding:15px;
 }
 
@@ -22,14 +22,14 @@ transition:0.3s;
 }
 
 nav a:hover{
-color:#ffe4f1;
+color:#fff0f6;
 }
 
 /* Header */
 
 header{
 padding:70px 20px;
-background:linear-gradient(135deg,#a8d8ff,#d9f0ff);
+background:linear-gradient(135deg,#ffc2d6,#e6d6ff);
 }
 
 .profile{
@@ -42,7 +42,7 @@ box-shadow:0px 6px 15px rgba(0,0,0,0.2);
 /* Sections */
 
 .section{
-background:white;
+background:#fff0f6;
 margin:40px auto;
 padding:40px;
 width:80%;
@@ -60,7 +60,7 @@ flex-wrap:wrap;
 }
 
 .card{
-background:linear-gradient(135deg,#d6ecff,#f2f9ff);
+background:linear-gradient(135deg,#ffe3ee,#e6f4ff);
 padding:25px;
 width:260px;
 border-radius:15px;
@@ -75,7 +75,7 @@ transform:translateY(-10px);
 /* Footer */
 
 footer{
-background:#6fb6ff;
+background:#ff9bb8;
 color:white;
 padding:20px;
 margin-top:40px;
